@@ -4,7 +4,7 @@ var myGlobalVariable = 10;
 
 function function1() {
     notGlobalVariable = 5;
-   
+
 }
 // Write code above this line 
 function function2() {
@@ -21,6 +21,6 @@ function function2() {
 function1();
 function2();
 module.exports = {
-    function1, 
+    function1,
     function2
 };
